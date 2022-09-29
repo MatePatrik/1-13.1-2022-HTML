@@ -1,0 +1,27 @@
+.alap{
+    background-color: aquamarine;
+    width: auto;
+    height: auto;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.első{
+    background-image: url(https://www.nemzetisport.hu/data/cikk/2/91/58/67/cikk_2915867/000_32KC2XE_316px.jpg);
+    width: 316px;
+    height: 236px;
+
+}
+.szöveg1{
+    max-width: 316px;
+    height: 460px;
+    width: 95%;
+    background-color: yellow;
+
+}
+.masodik{
+    background-color: blueviolet;
+    width: auto;
+    height: 460px;
+    float: right;
+}
