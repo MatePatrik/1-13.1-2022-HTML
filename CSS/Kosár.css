@@ -1,27 +1,226 @@
+html{
+    background-image: url(https://www.beac.hu/kosarlabda/wp-content/uploads/2014/09/ELTE-BEAC-kosarlabda.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: auto;
+    background-attachment: fixed;
+    justify-content: center;
+
+}
 .alap{
-    background-color: aquamarine;
     width: auto;
     height: auto;
     margin-left: 300px;
     margin-right: 300px;
-}
+    display: flex;
+    justify-content: center;
 
-.első{
+}
+.első-kép{
     background-image: url(https://www.nemzetisport.hu/data/cikk/2/91/58/67/cikk_2915867/000_32KC2XE_316px.jpg);
     width: 316px;
     height: 236px;
 
 }
-.szöveg1{
+.első-alap{
     max-width: 316px;
-    height: 460px;
+    height: auto;
     width: 95%;
-    background-color: yellow;
+    background-color: white;
+    min-width: 316px;
 
 }
-.masodik{
-    background-color: blueviolet;
+.masodik-szöveg{
+    background-color: white;
+    width: 300px;
+    height: auto;
+    padding-left: 10px;
+    min-width: 316px;
+
+}
+.alap2{
     width: auto;
-    height: 460px;
-    float: right;
+    height: auto;
+    margin-left: 300px;
+    margin-right: 300px;
+    display: flex;
+    justify-content: center;
+
+}
+.harmadik-kép{
+    background-image: url(https://www.nemzetisport.hu/data/cikk/2/91/53/93/cikk_2915393/KelseyPlum1200_316px.jpg);
+    width: 316px;
+    height: 236px;
+
+}
+.harmadik-alap{
+    max-width: 316px;
+    height: auto;
+    width: 95%;
+    background-color: white;
+    min-width: 316px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom: 1px solid;
+
+}
+.negyedik-alap{
+    max-width: 316px;
+    height: 550px;
+    width: 95%;
+    background-color: white;
+    min-width: 316px;
+    margin-left: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom: 1px solid;
+}
+.negyedik-kép{
+    background-image: url(https://www.nemzetisport.hu/data/cikk/2/91/44/35/cikk_2914435/clszvezeto_316px.jpg);
+    width: 316px;
+    height: 236px;
+
+}
+.alap3{
+    width: auto;
+    height: auto;
+    margin-left: 300px;
+    margin-right: 300px;
+    display: flex;
+    justify-content: center;
+
+}
+ .ötödik-alap{
+    max-width: 316px;
+    height: 808px;
+    width: 95%;
+    background-color: white;
+    min-width: 316px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom: 1px solid;
+
+}
+.ötödik-kép{
+    background-image: url(https://www.nemzetisport.hu/data/cikk/2/91/35/7/cikk_2913507/kosarlabdanoinbi_316px.jpg);
+    width: 316px;
+    height: 237px;
+
+}
+.ötödik-szöveg{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom: 1px solid;
+    height: 550px;
+
+}
+img{
+    max-width: 100px;
+    margin-top: 20px;
+    height: 120px;
+}
+.container1{
+    max-height: 150px;
+    margin-left: 5px;
+    display: flex;
+
+}
+.container-szöveg1 > p{
+    font-size: 13px;
+}
+.container-szöveg1{
+    max-height: 100px;
+    margin-left: 5px;
+}
+.container2{
+    max-height: 150px;
+    margin-left: 5px;
+    display: flex;
+
+}
+.container-szöveg2 > p{
+    font-size: 13px;
+}
+.container-szöveg2{
+    max-height: 100px;
+    margin-left: 5px;
+}
+.container3{
+    max-height: 150px;
+    margin-left: 5px;
+    display: flex;
+
+}
+.container-szöveg3 > p{
+    font-size: 13px;
+}
+.container-szöveg3{
+    max-height: 100px;
+    margin-left: 5px;
+}
+.hatodik-alap{
+    max-width: 316px;
+    height: auto;
+    width: 95%;
+    background-color: white;
+    min-width: 316px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom: 1px solid;
+    margin-left: 10px;
+}
+.alap3{
+    width: auto;
+    height: auto;
+    margin-left: 300px;
+    margin-right: 300px;
+    display: flex;
+    justify-content: center;
+}.hatodik-kép{
+    background-image: url(https://www.nemzetisport.hu/data/cikk/2/91/33/67/cikk_2913367/kosaradatbank_960px_316px.jpg);
+    width: 316px;
+    height: 236px;
+}
+h1{
+    font-size: 30px;
+}
+.container4{
+    max-height: 150px;
+    margin-left: 5px;
+    display: flex;
+
+}
+.container-szöveg4 > p{
+    font-size: 13px;
+}
+.container-szöveg4{
+    max-height: 100px;
+    margin-left: 5px;
+}
+.container5{
+    max-height: 150px;
+    margin-left: 5px;
+    display: flex;
+
+}
+.container-szöveg5 > p{
+    font-size: 13px;
+}
+.container-szöveg5{
+    max-height: 100px;
+    margin-left: 5px;
+}
+.container6{
+    max-height: 150px;
+    margin-left: 5px;
+    display: flex;
+
+}
+.container-szöveg6 > p{
+    font-size: 13px;
+}
+.container-szöveg6{
+    max-height: 100px;
+    margin-left: 5px;
 }
