@@ -1,0 +1,71 @@
+body{
+    background-image: url(háttér.jpg);
+    margin-top: 25px;
+    margin-bottom: 100px;
+    margin-left: 240px;
+    margin-right: 240px;
+    color: #004400;
+    background-size: cover;
+
+}
+h1,h2{
+    text-align: center;
+}
+.képek{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0;
+    width: 50%;
+}
+img{
+    width: 150px;
+    height: 120px;
+}
+.tábla{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;  
+    width: 480px;
+    border: 2px solid black;
+}
+.sor , .oszlop{
+    border: 2px solid black;
+    padding: 8px;
+}
+
+p{
+    text-align: center;
+}
+.kép1{
+    content: url(haz1.jpg);
+    width: 150px;
+    height: 120px;
+    float: right;
+}
+.kép2{
+    content: url(haz2.jpg);
+    width: 150px;
+    height: 120px;
+    float: right;
+}
+.kép3{
+    content: url(haz3.jpg);
+    width: 150px;
+    height: 120px;
+    float: right;
+}
+.kép4{
+    content: url(haz4.jpg);
+    width: 150px;
+    height: 120px;
+    float: right;
+}
+.alap{
+    
+}
+.gif{
+    float: right;
+    width: 160px;
+    content: url(kirandulas.gif);
+}
