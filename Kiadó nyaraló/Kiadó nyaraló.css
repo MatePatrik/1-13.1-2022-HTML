@@ -37,35 +37,12 @@ img{
 p{
     text-align: center;
 }
-.kép1{
-    content: url(haz1.jpg);
-    width: 150px;
-    height: 120px;
-    float: right;
-}
-.kép2{
-    content: url(haz2.jpg);
-    width: 150px;
-    height: 120px;
-    float: right;
-}
-.kép3{
-    content: url(haz3.jpg);
-    width: 150px;
-    height: 120px;
-    float: right;
-}
-.kép4{
-    content: url(haz4.jpg);
-    width: 150px;
-    height: 120px;
-    float: right;
-}
-.alap{
-    
-}
 .gif{
     float: right;
-    width: 160px;
-    content: url(kirandulas.gif);
+    height: 100px;
+    width: auto;
+}
+hr{
+    border: 4px solid;
+    color: #004400;
 }
