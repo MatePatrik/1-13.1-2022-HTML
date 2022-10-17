@@ -1,0 +1,45 @@
+body{
+    text-align: justify;
+    background-color: #E7E7FF ;
+}
+p{
+    color: #1D1D4E;
+}
+.kép1{
+    width: 100px;
+    margin-left: 25px;
+    margin-right: 10px;
+    box-shadow: 1px 1px 1px #1D1D4E;
+    float: left;
+}
+table, tr, td{
+    border: 2px solid;
+}
+table{
+    box-shadow: 1px 1px 1px #1D1D4E;
+}
+.közép{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.jobb{
+    font-weight: bold;
+    text-align: right;
+}
+.bal{
+    font-style: italic;
+}
+.kép2{
+    float: right;
+    width: 200px;
+}
+hr{
+    background-color:#004400;
+    block-size: 4px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.forrás{
+    text-align: center;
+}
