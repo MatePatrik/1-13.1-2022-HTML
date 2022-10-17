@@ -1,0 +1,26 @@
+
+tr{
+    padding: 10px;
+    vertical-align: top;
+}
+td{
+    border: 0px solid;
+}
+h1{
+    color: #999999;
+}
+.kép{
+    width: 125px;
+}
+.szín{
+    color: #c00;
+}
+.jobb{
+    text-align: right;
+}
+.szél{
+    width: 90%;
+}
+h1, p{
+    font-family: Arial, Helvetica, sans-serif;
+}
