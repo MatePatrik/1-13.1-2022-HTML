@@ -1,0 +1,1 @@
+document.write("Ezt a script.js irja ki<BR>")
